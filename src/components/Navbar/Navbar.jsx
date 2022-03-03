@@ -1,7 +1,7 @@
 import React from "react";
 import {
   AppBar,
-  ToolBar,
+  Toolbar,
   IconButton,
   Badge,
   MenuItem,
@@ -11,12 +11,15 @@ import {
 import { ShoppingCart } from "@material-ui/icons";
 
 import logo from "../../assets/commerce.png";
+import useStyles from './styles';
 
 const Navbar = () => {
+  const classes = useStyles();
+
   return (
     <>
       <AppBar postion="fixed" className={classes.appBar} color="inherit">
-        <ToolBar>
+        <Toolbar>
           <Typography variant="h6" className={classes.title} color="inherit">
             <img
               src={logo}
@@ -34,7 +37,7 @@ const Navbar = () => {
               </Badge>
             </IconButton>
           </div>
-        </ToolBar>
+        </Toolbar>
       </AppBar>
     </>
   );

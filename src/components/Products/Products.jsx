@@ -5,7 +5,7 @@ import Product from './Product/Product';
 
 const products = [
     { id: 1, name: 'Shoes', description: 'Running shoes', price: '$5', image: 'https://media.gq.com/photos/60edfcd7c2cedd91d642931b/master/w_2000,h_1333,c_limit/Nike-Winflo-8-shoe.jpg' },
-    { id: 2, name: 'MAcbook', description: 'Apple mackbook', price: '$10', image: 'https://cdn.mos.cms.futurecdn.net/uWjEogFLUTBc8mSvagdiuP.jpg' },
+    { id: 2, name: 'Macbook', description: 'Apple mackbook', price: '$10', image: 'https://cdn.mos.cms.futurecdn.net/uWjEogFLUTBc8mSvagdiuP.jpg' },
 ]
 
 const Products = () => {
